@@ -1,18 +1,15 @@
 function isHot(temp) {
-  const reply = temp >= 80 ? 'Yes, it is indeed hot.' : 'No, it is not hot.';
-  return reply;
+  return reply = temp >= 80 ? 'Yes, it is indeed hot.' : 'No, it is not hot.';
 }
 
 
 function helloThere(name) {
-  const greeting = name.length > 5  ? 'Hi, ' + name : 'Hello, ' + name;
-  return greeting;
+  return greeting = name.length > 5  ? 'Hi, ' + name : 'Hello, ' + name;
 }
 
-console.log(reply)
+
 function goodbyeYou(name) {
-  reply = name !== undefined ? 'Goodbye, ' + name : 'Goodbye, stranger';
-  return reply;
+  return reply = name !== undefined ? 'Goodbye, ' + name : 'Goodbye, stranger';
 }
 
 
